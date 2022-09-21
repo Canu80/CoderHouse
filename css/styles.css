@@ -700,4 +700,12 @@ a {
   }
 }
 
+.btn{
+transition-property: all;
+transition-duration: 250ms;
+}
+
+.btn:hover{
+scale: 110%;
+}
 
