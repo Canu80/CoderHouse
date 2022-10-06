@@ -13,3 +13,55 @@
   .encontradas_hoy ul img {
     width: 80vw;
   }
+
+  // News
+
+@include tablet {
+  .encontradas_hoy ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    width: 100%;
+
+    img {
+      width: 40vw;
+    }
+  }
+
+  .encontradas_hoy div h2 {
+    display: flex;
+    background-color: $color-dos;
+    height: 4.5vw;
+    align-items: center;
+    font-size: 2vw;
+    padding: 2vw;
+  }
+
+
+}
+
+@include computer {
+  .encontradas_hoy ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    width: 100%;
+
+    img {
+      display: flex;
+      padding: 15px;
+      width: 30vw;
+    }
+  }
+
+  .encontradas_hoy div h2 {
+    display: flex;
+    background-color: $color-dos;
+    width: 95%;
+    height: 3vw;
+    align-items: center;
+    font-size: 1.4vw;
+    padding: 2vw;
+  }
+
+}

@@ -3,3 +3,21 @@
     font-size: 2vw;
     padding: 10% 0%;
   }
+  
+  // Footer
+
+@media (min-width: 768px) {
+  .footer h6 {
+    text-align: center;
+    font-size: 1.8vw;
+    padding: 10% 0%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer h6 {
+    text-align: center;
+    font-size: 1vw;
+    padding: 10% 0%;
+  }
+}
