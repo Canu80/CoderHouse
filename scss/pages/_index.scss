@@ -1,0 +1,44 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    justify-content: center;
+  
+  }
+  
+  .contenedor section div h2 {
+    display: flex;
+    width: 90vw;
+    height: 7vw;
+    justify-content: center;
+    background-color: $color-dos;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4vw;
+  
+  }
+  
+  .perdidas ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+    align-items: center;
+  }
+  
+  .perdidas img {
+    width: 90vw;
+  }
+  
+  .encontradas ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+    align-items: center;
+  }
+  
+  .encontradas img {
+    width: 90vw;
+  }
+
+  
+  

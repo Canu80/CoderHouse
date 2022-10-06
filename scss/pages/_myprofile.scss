@@ -1,0 +1,48 @@
+.main_form {
+    display: flex;
+    flex-direction: column;
+    padding: 4vw;
+    gap: 10vw;
+    justify-content: center;
+  
+  }
+  
+  .formularios {
+    display: flex;
+    padding: 12px;
+    margin-top: 3vw;
+    border-radius: 10px;
+    background-color: $color-tres;
+  
+  }
+  
+  .grupo {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: baseline;
+    gap: 10px;
+    font-size: 4.5vw;
+  
+  }
+  
+  .grupo img {
+    width: 200px;
+  
+  }
+  
+  .titulo {
+    margin-bottom: 5vw;
+    font-size: 3vw;
+  
+  }
+  
+  .grupo input {
+    border-radius: 6px;
+    border: $color-dos solid 1px;
+    height: 35px;
+    width: 45vw;
+    color: $color-cuatro;
+  
+  }
+  

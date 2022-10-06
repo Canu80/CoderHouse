@@ -1,0 +1,16 @@
+.header__nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  
+  .header__logo {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+  
+  .header__logo img {
+    width: 50%;
+  }

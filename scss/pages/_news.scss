@@ -1,0 +1,15 @@
+.encontradas_hoy ul {
+    display: grid;
+  
+    justify-items: center;
+    width: 100%;
+  }
+  
+  .encontradas_hoy div h2 {
+    background-color: $color-dos;
+    font-size: 3vw;
+  }
+  
+  .encontradas_hoy ul img {
+    width: 80vw;
+  }

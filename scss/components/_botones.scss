@@ -1,0 +1,27 @@
+.boton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 3vw;
+    color: $color-dos;
+
+    button {
+      width: 150px;
+      height: 40px;
+      background-color: $color-dos;
+      border-radius: 10px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: 700;
+      border-style: double;
+    }
+  }
+   
+
+  .btn{
+    transition-property: all;
+    transition-duration: 250ms;
+    }
+    
+    .btn:hover{
+    scale: 112%;
+    }
