@@ -1,186 +1,230 @@
 .main_form {
-    display: flex;
-    flex-direction: column;
-    padding: 4vw;
-    gap: 10vw;
-    justify-content: center;
-  
+  display: flex;
+  flex-direction: column;
+  padding: 4vw;
+  gap: 5vw;
+  justify-content: center;
+  color: white;
+  padding-top: 210px;
+
+}
+
+.formularios {
+  display: flex;
+  padding: 12px;
+  margin-top: 3vw;
+  border-radius: 10px;
+  background-color: $color-tres;
+
+}
+
+.grupo {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: baseline;
+  gap: 10px;
+  font-size: 3vw;
+
+  img {
+    width: 250px;
   }
-  
-  .formularios {
-    display: flex;
-    padding: 12px;
-    margin-top: 3vw;
-    border-radius: 10px;
-    background-color: $color-tres;
-  
-  }
-  
-  .grupo {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: baseline;
-    gap: 10px;
-    font-size: 4.5vw;
-  
-  }
-  
-  .grupo img {
-    width: 200px;
-  
-  }
-  
-  .titulo {
-    margin-bottom: 5vw;
-    font-size: 3vw;
-  
-  }
-  
-  .grupo input {
+
+  input {
     border-radius: 6px;
     border: $color-dos solid 1px;
     height: 35px;
     width: 45vw;
     color: $color-cuatro;
-  
+
   }
-  
+}
+
+.art_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $color-tres;
+  border-radius: 10px;
+  width: 90vw;
+
+  .div_form {
+    display: flex;
+    padding: 50px;
+    color: white;
+    width: 90vw;
+  }
+}
+
+.titulo {
+  margin-bottom: 3vw;
+  font-size: 2.5vw;
+
+}
+
+
 // Contáctenos & My Profile
 
-@media (min-width: 768px) {
+@include tablet {
   .main_form {
     display: flex;
     flex-direction: column;
     padding: 4vw;
     gap: 2vw;
     justify-content: center;
+    padding-top: 155px;
 
-  }
 
-  .formularios {
-    display: flex;
-    padding: 15px;
-    margin-top: 3vw;
-    border-radius: 10px;
-    background-color: #ffffff3b;
 
-  }
-
-  .grupo {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: baseline;
-    gap: 15px;
-    font-size: 2.5vw;
-
-    img {
-      width: 200px;
-    }
-
-    input {
-      border-radius: 6px;
-      border: #f9b43e solid 1px;
-      height: 35px;
-      width: 45vw;
-      color: rgb(50, 50, 50);
-  
-    }
-
-  }
-
-  .titulo {
-    margin-bottom: 4vw;
-    font-size: 2vw;
-
-  }
-
-  .boton {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 3vw;
-    color: #f9b43e;
-
-    button {
-      width: 150px;
-      height: 40px;
-      background-color: #f9b43e;
+    .formularios {
+      display: flex;
+      padding: 15px;
+      margin-top: 3vw;
       border-radius: 10px;
-      font-family: Verdana;
-      font-weight: 700;
-      border-style: double;
+      background-color: #ffffff3b;
+
+    }
+
+    .grupo {
+      display: flex;
+      padding: 10px;
+      align-items: center;
+      justify-content: baseline;
+      gap: 25px;
+      font-size: 1rem;
+
+      img {
+        width: 200px;
+      }
+
+      input {
+        border-radius: 6px;
+        border: #f9b43e solid 1px;
+        height: 35px;
+        width: 500px;
+        color: rgb(50, 50, 50);
+
+      }
+
+    }
+
+    .art_form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $color-tres;
+      border-radius: 10px;
+      width: 100%;
+
+      .div_form {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+
+    .boton {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      padding: 30px;
+      color: #f9b43e;
+
+      button {
+        width: 150px;
+        height: 40px;
+        background-color: #f9b43e;
+        border-radius: 10px;
+        font-family: Verdana;
+        font-weight: 700;
+        border-style: double;
+      }
+
     }
 
   }
-
 }
 
-@media (min-width: 1200px) {
+@include computer {
   .main_form {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
+    padding-top: 200px;
 
-  }
 
-  .formularios {
-    display: flex;
-    padding: 15px;
-    margin-top: 1px;
-    border-radius: 10px;
-    background-color: #ffffff3b;
-
-  }
-
-  .grupo {
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    justify-content: baseline;
-    gap: 15px;
-    font-size: 1.2vw;
-
-    img {
-      width: 300px;
-  
-    }
-
-    input {
-      border-radius: 6px;
-      border: #f9b43e solid 1px;
-      
-      width: 25vw;
-      color: rgb(50, 50, 50);
-  
-    }
-  }
-
-   .titulo {
-    margin-bottom: 2vw;
-    font-size: 1.1rem;
-
-  }
-
-  
-  .boton {
-    display: flex;
-    width: 100%;
-    justify-content: start;
-    padding: 1vw;
-    color: #f9b43e;
-
-    button {
-      width: 150px;
-      height: 40px;
-      background-color: #f9b43e;
+    .formularios {
+      display: flex;
+      padding: 15px;
+      margin-top: 1px;
       border-radius: 10px;
-      font-family: Verdana;
-      font-weight: 700;
-      border-style: double;
+      background-color: $color-tres;
+
     }
 
-  }
+    .grupo {
+      display: flex;
+      padding: 10px;
+      align-items: center;
+      justify-content: baseline;
+      gap: 15px;
+      font-size: 1rem;
 
+      img {
+        width: 300px;
+
+      }
+
+      input {
+        border-radius: 6px;
+        border: #f9b43e solid 1px;
+
+        width: 25vw;
+        color: rgb(50, 50, 50);
+
+      }
+    }
+
+    .art_form {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $color-tres;
+      width: 100%;
+
+      .div_form {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        border-radius: 10px;
+        color: white;
+
+      }
+    }
+
+    .titulo {
+      margin-bottom: 2vw;
+      font-size: 1.1rem;
+
+    }
+
+    .boton {
+      display: flex;
+      width: 100%;
+      justify-content: start;
+      padding: 30px;
+      color: $color-uno;
+
+      button {
+        width: 150px;
+        height: 40px;
+        background-color: $color-dos;
+        border-radius: 10px;
+        font-family: Verdana;
+        font-weight: 700;
+        border-style: double;
+      }
+
+    }
   }
+}

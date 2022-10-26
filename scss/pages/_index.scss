@@ -1,131 +1,135 @@
 .contenedor {
-    display: flex;
-    flex-direction: column;
-    padding: 20px 0px;
-    justify-content: center;
-  
-  }
-  
-  .contenedor section div h2 {
-    display: flex;
-    width: 90vw;
-    height: 7vw;
-    justify-content: center;
-    background-color: $color-dos;
-    align-items: center;
-    font-weight: bold;
-    font-size: 4vw;
-  
-  }
-  
-  .perdidas ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 25px;
-    align-items: center;
-  }
-  
-  .perdidas img {
-    width: 90vw;
-  }
-  
-  .encontradas ul {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 25px;
-    align-items: center;
-  }
-  
-  .encontradas img {
-    width: 90vw;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 210px;
 
-  // Home
+}
+
+.contenedor section div h2 {
+  display: flex;
+  width: 90vw;
+  height: 5vw;
+  justify-content: left;
+  align-items: center;
+  padding: 0 1rem;
+  font-size: 0.9em;
+  color: white;
+  background-color: $color-dos;
+  align-items: center;
+  font-weight: bold;
+  
+
+}
+
+.perdidas ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+  align-items: center;
+}
+
+.perdidas img {
+  width: 90vw;
+}
+
+.encontradas ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+  align-items: center;
+}
+
+.encontradas img {
+  width: 90vw;
+}
+
+// Home
 
 @include tablet {
-  .contenedor {
+.contenedor {
 
+  display: flex;
+  flex-direction: column;
+  padding: 3vw 0px;
+  padding-top: 155px;
+
+  section div h2 {
     display: flex;
-    flex-direction: column;
-    padding: 3vw 0px;
-
-    section div h2 {
-      display: flex;
-      height: 5vw;
-      width: 95%;
-      align-items: center;
-      background-color: $color-dos;
-      justify-content: start;
-      font-weight: bold;
-      font-size: 2.2vw;
-      padding: 0px 5vw;
-    }
-
+    height: 3vw;
+    width: 95%;
+    align-items: center;
+    background-color: $color-dos;
+    justify-content: start;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0px 5vw;
   }
 
-  .perdidas ul {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-  }
+}
 
-  .perdidas img {
-    width: 30vw;
-  }
+.perdidas ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
 
-  .encontradas ul {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-  }
+.perdidas img {
+  width: 30vw;
+}
 
-  .encontradas img {
-    width: 30vw;
-  }
+.encontradas ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.encontradas img {
+  width: 30vw;
+}
 }
 
 @include computer {
-  .contenedor {
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  font-size: 1rem;
+  
+
+  .perdidas .div_perdidas .h2_perdidas {
     display: flex;
-    flex-direction: column;
-    padding: 3vw 0px;
-
-    section div h2 {
-      display: flex;
-      height: 3vw;
-      width: 95%;
-      justify-content: center;
-      background-color: $color-dos;
-      justify-content: start;
-      font-weight: bold;
-      font-size: 1.6vw;
-      padding: 0px 5vw;
-    }
+    height: 3vw;
+    width: 95%;
+    background-color: $color-dos;
+    justify-content: start;
+    font-weight: bold;
+    padding: 0px 5vw;
   }
+}
 
-  .perdidas ul {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-  }
+.perdidas ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
 
-  .perdidas img {
-    width: 30vw;
-  }
+.perdidas img {
+  width: 30vw;
+}
 
-  .encontradas ul {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-  }
+.encontradas ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
 
-  .encontradas img {
-    width: 30vw;
-  }
+.encontradas img {
+  width: 30vw;
+}
 
 }
-  

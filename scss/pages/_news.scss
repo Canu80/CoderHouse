@@ -1,67 +1,103 @@
-.encontradas_hoy ul {
-    display: grid;
-  
-    justify-items: center;
-    width: 100%;
-  }
-  
-  .encontradas_hoy div h2 {
-    background-color: $color-dos;
-    font-size: 3vw;
-  }
-  
-  .encontradas_hoy ul img {
-    width: 80vw;
-  }
+.encontradas_hoy {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  justify-content: center;
+  color: white;
+  padding-top: 210px;
 
-  // News
-
-@include tablet {
-  .encontradas_hoy ul {
+  ul {
     display: grid;
-    grid-template-columns: 50% 50%;
     justify-items: center;
     width: 100%;
 
     img {
-      width: 40vw;
+      width: 80vw;
     }
   }
 
-  .encontradas_hoy div h2 {
-    display: flex;
-    background-color: $color-dos;
-    height: 4.5vw;
-    align-items: center;
-    font-size: 2vw;
-    padding: 2vw;
+  .div_encontradas {
+
+    .h2-encontradas {
+      display: flex;
+      width: 95%;
+      height: 5vw;
+      justify-content: left;
+      padding: 0 1rem;
+      font-size: 1rem;
+      background-color: $color-dos;
+      align-items: center;
+      font-weight: bold;
+
+    }
   }
+}
 
+// News
 
+@include tablet {
+  .encontradas_hoy {
+    padding-top: 155px;
+
+    ul {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      justify-items: center;
+      width: 100%;
+
+      img {
+        width: 40vw;
+      }
+    }
+
+    .div_encontradas {
+
+      .h2-encontradas {
+      height: 3vw;
+      width: 95%;
+      font-size: 1rem;
+      justify-content: start;
+      height: 3vw;
+      width: 95%;
+      font-weight: bold;
+      padding: 0px 5vw;
+      background-color: $color-dos;
+    }
+  }
+  }
 }
 
 @include computer {
-  .encontradas_hoy ul {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-    width: 100%;
 
-    img {
-      display: flex;
-      padding: 15px;
-      width: 30vw;
+  .encontradas_hoy {
+    padding-top: 160px;
+
+    ul {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      justify-items: center;
+      width: 100%;
+
+      img {
+        display: flex;
+        padding: 15px;
+        width: 30vw;
+      }
+    }
+
+    .div_encontradas {
+
+      .h2-encontradas {
+        height: 3vw;
+        width: 95%;
+        font-size: 1rem;
+        justify-content: start;
+        height: 3vw;
+        width: 95%;
+        font-weight: bold;
+        padding: 0px 5vw;
+        background-color: $color-dos;
+      }
     }
   }
-
-  .encontradas_hoy div h2 {
-    display: flex;
-    background-color: $color-dos;
-    width: 95%;
-    height: 3vw;
-    align-items: center;
-    font-size: 1.4vw;
-    padding: 2vw;
-  }
-
 }
