@@ -79,7 +79,16 @@ a {
   width: 25%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .header {
     display: grid;
     align-items: center;
@@ -115,12 +124,22 @@ a {
   .header__logo {
     display: grid;
     justify-items: left;
+    padding-left: 50px;
   }
   .header__logo img {
-    width: 100%;
+    width: 180px;
   }
 }
 @media (min-width: 1200px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .header {
     display: grid;
     align-items: center;
@@ -160,7 +179,7 @@ a {
     width: 150%;
   }
   .header__logo img {
-    width: 100%;
+    width: 180px;
   }
 }
 .footer-container {
@@ -190,7 +209,16 @@ a {
   color: rgb(20, 50, 50);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .footer-container {
     display: flex;
     justify-content: space-around;
@@ -219,6 +247,15 @@ a {
   }
 }
 @media (min-width: 1200px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .footer-container {
     display: flex;
     justify-content: space-around;
@@ -281,14 +318,23 @@ a {
   z-index: 10;
 }
 
+h1 {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #c5f8ef;
+  font-style: normal;
+  padding: 20px 10vw;
+}
+
 .contenedor {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 210px;
+  padding-top: 27vw;
 }
-
-.contenedor section div h2 {
+.contenedor .perdidas_encontradas .div_perdidas_encontradas .h2_perdidas_encontradas {
   display: flex;
   width: 90vw;
   height: 5vw;
@@ -302,36 +348,45 @@ a {
   font-weight: bold;
 }
 
-.perdidas ul {
+.perdidas_encontradas ul {
   display: flex;
   flex-direction: column;
   padding: 0px 25px;
   align-items: center;
 }
 
-.perdidas img {
+.perdidas_encontradas img {
   width: 90vw;
 }
 
-.encontradas ul {
+.perdidas_encontradas ul {
   display: flex;
   flex-direction: column;
   padding: 0px 25px;
   align-items: center;
 }
 
-.encontradas img {
+.perdidas_encontradas img {
   width: 90vw;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .contenedor {
     display: flex;
     flex-direction: column;
     padding: 3vw 0px;
     padding-top: 155px;
   }
-  .contenedor section div h2 {
+  .contenedor .perdidas_encontradas .div_perdidas_encontradas .h2_perdidas_encontradas {
     display: flex;
     height: 3vw;
     width: 95%;
@@ -342,33 +397,42 @@ a {
     font-size: 1rem;
     padding: 0px 5vw;
   }
-  .perdidas ul {
+  .perdidas_encontradas ul {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
   }
-  .perdidas img {
+  .perdidas_encontradas img {
     width: 30vw;
   }
-  .encontradas ul {
+  .perdidas_encontradas ul {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
   }
-  .encontradas img {
+  .perdidas_encontradas img {
     width: 30vw;
   }
 }
 @media (min-width: 1200px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .contenedor {
     display: flex;
     flex-direction: column;
     padding-top: 160px;
     font-size: 1rem;
   }
-  .contenedor .perdidas .div_perdidas .h2_perdidas {
+  .contenedor .perdidas_encontradas .div_perdidas_encontradas .h2_perdidas_encontradas {
     display: flex;
     height: 3vw;
     width: 95%;
@@ -377,22 +441,22 @@ a {
     font-weight: bold;
     padding: 0px 5vw;
   }
-  .perdidas ul {
+  .perdidas_encontradas ul {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
   }
-  .perdidas img {
+  .perdidas_encontradas img {
     width: 30vw;
   }
-  .encontradas ul {
+  .perdidas_encontradas ul {
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: center;
   }
-  .encontradas img {
+  .perdidas_encontradas img {
     width: 30vw;
   }
 }
@@ -449,14 +513,41 @@ a {
 }
 
 .titulo {
-  margin-bottom: 3vw;
-  font-size: 2.5vw;
+  margin-bottom: 1vw;
+  font-size: 0.8rem;
+  font-size: 1.25rem;
+  padding: 1.25rem 0;
 }
 
-@media (min-width: 768px) {
+.titulo {
+  margin-bottom: 1vw;
+  font-size: 0.8rem;
+  font-size: 1.25rem;
+  padding: 1.25rem 0;
+}
+
+.titulo_h1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.4rem;
+  color: #c5f8ef;
+  font-style: normal;
+  padding: 10px 0vw;
+}
+
+@media (min-width: 850px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .main_form {
     display: flex;
-    flex-direction: column;
     padding: 4vw;
     gap: 2vw;
     justify-content: center;
@@ -500,6 +591,21 @@ a {
     justify-content: center;
     width: 100%;
   }
+  .main_form .titulo {
+    margin-bottom: 1vw;
+    font-size: 0.8rem;
+    font-size: 1.25rem;
+    padding: 1.25rem 0;
+  }
+  .main_form .titulo_h1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 10px 0vw;
+  }
   .main_form .boton {
     display: flex;
     width: 100%;
@@ -518,16 +624,24 @@ a {
   }
 }
 @media (min-width: 1200px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .main_form {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 20px;
-    padding-top: 200px;
+    padding-top: 150px;
   }
   .main_form .formularios {
     display: flex;
     padding: 15px;
-    margin-top: 1px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.231372549);
   }
@@ -563,8 +677,19 @@ a {
     color: white;
   }
   .main_form .titulo {
-    margin-bottom: 2vw;
-    font-size: 1.1rem;
+    margin-bottom: 1vw;
+    font-size: 0.8rem;
+    font-size: 1.25rem;
+    padding: 1.25rem 0;
+  }
+  .main_form .titulo_h1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 10px 0vw;
   }
   .main_form .boton {
     display: flex;
@@ -609,11 +734,21 @@ a {
   background-color: #f9b43e;
   align-items: center;
   font-weight: bold;
+  color: white;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .encontradas_hoy {
-    padding-top: 155px;
+    padding-top: 175px;
   }
   .encontradas_hoy ul {
     display: grid;
@@ -634,11 +769,21 @@ a {
     font-weight: bold;
     padding: 0px 5vw;
     background-color: #f9b43e;
+    color: white;
   }
 }
 @media (min-width: 1200px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .encontradas_hoy {
-    padding-top: 160px;
+    padding-top: 180px;
   }
   .encontradas_hoy ul {
     display: grid;
@@ -661,12 +806,13 @@ a {
     font-weight: bold;
     padding: 0px 5vw;
     background-color: #f9b43e;
+    color: white;
   }
 }
 .main {
   display: flex;
   flex-direction: column;
-  padding-top: 210px;
+  padding-top: 190px;
   font-size: 1rem;
 }
 .main .socialpet .titulo {
@@ -677,7 +823,7 @@ a {
 .main .socialpet .titulo .h2_social {
   display: flex;
   background-color: #f9b43e;
-  height: 5vw;
+  height: 60px;
   align-items: center;
   justify-content: left;
   color: white;
@@ -719,7 +865,16 @@ a {
   margin-bottom: 30px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 850px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .main {
     display: flex;
     flex-direction: column;
@@ -774,6 +929,15 @@ a {
   }
 }
 @media (min-width: 1200px) {
+  h1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #c5f8ef;
+    font-style: normal;
+    padding: 20px 5vw;
+  }
   .main {
     display: flex;
     flex-direction: column;

@@ -28,6 +28,7 @@
       background-color: $color-dos;
       align-items: center;
       font-weight: bold;
+      color: white;
 
     }
   }
@@ -37,7 +38,7 @@
 
 @include tablet {
   .encontradas_hoy {
-    padding-top: 155px;
+    padding-top: 175px;
 
     ul {
       display: grid;
@@ -62,6 +63,7 @@
       font-weight: bold;
       padding: 0px 5vw;
       background-color: $color-dos;
+      color: white;
     }
   }
   }
@@ -70,7 +72,7 @@
 @include computer {
 
   .encontradas_hoy {
-    padding-top: 160px;
+    padding-top: 180px;
 
     ul {
       display: grid;
@@ -97,6 +99,7 @@
         font-weight: bold;
         padding: 0px 5vw;
         background-color: $color-dos;
+        color: white;
       }
     }
   }

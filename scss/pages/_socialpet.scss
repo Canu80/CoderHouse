@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  padding-top: 210px;
+  padding-top: 190px;
   font-size: 1rem;
 
   .socialpet {
@@ -14,7 +14,7 @@
       .h2_social {
         display: flex;
         background-color: $color-dos;
-        height: 5vw;
+        height: 60px;
         align-items: center;
         justify-content: left;
         color: white;

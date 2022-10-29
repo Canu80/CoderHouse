@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Mi perfil</title>
-    <meta name="description" content="Pets es el sitio especializado en la búsqueda y encuentro de mascotas perdidas. Permite publicar foto de la mascota perdida o encontrada para que se reúnan con sus dueños. Además ayuda a refugios con las adopciones de animales que buscar hogar.">
+    <meta name="description"
+        content="Pets es el sitio especializado en la búsqueda y encuentro de mascotas perdidas. Permite publicar foto de la mascota perdida o encontrada para que se reúnan con sus dueños. Además ayuda a refugios con las adopciones de animales que buscar hogar.">
 </head>
 
 <body class="body">
@@ -48,61 +49,64 @@
 
     <main class="main_form">
 
+        
+
+            <div class="formularios">
+                <form action="">
+                    <div>
+                        <h1 class="titulo_h1">Coloca tus datos y los de tu mascota</h1>
+                        <h2 class="titulo">Datos del dueño</h2>
+                    </div>
+                    <div class="grupo">
+                        <div>
+                            <label for="nombre">Nombre: </label>
+                        </div>
+                        <div>
+                            <input type="text" id="nombre-usuario" placeholder="   Ej: Daniel Alejandro" required>
+                        </div>
+                    </div>
+                    <div class="grupo">
+                        <div>
+                            <label for="apellido">Apellido: </label>
+                        </div>
+                        <div>
+                            <input type="text" id="apellido-usuario" placeholder="   Ej: Canullo" required>
+                        </div>
+                    </div>
+                    <div class="grupo">
+                        <div>
+                            <label for="email">Email: </label>
+                        </div>
+                        <div>
+                            <input type="text" id="email" placeholder="   Ej: nombre@email.com" required>
+                        </div>
+                    </div>
+                    <div class="grupo">
+                        <div>
+                            <label for="celular">Celular: </label>
+                        </div>
+                        <div>
+                            <input type="text" id="celular" placeholder="   Ej: +56 9 1234 5678" required>
+                        </div>
+                    </div>
+                    <div class="grupo">
+                        <div>
+                            <label for="domicilio">Domicilio: </label>
+                        </div>
+                        <div>
+                            <input type="text" id="domicilio" placeholder="   Ej: Av siempre viva 1234" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        
+        
+        
+
         <div class="formularios">
             <form action="">
-                <div class="titulo">
-                    <h2>Datos del dueño</h2>
-                </div>
-                <div class="grupo">
-                    <div>
-                        <label for="nombre">Nombre: </label>
-                    </div>
-                    <div>
-                        <input type="text" id="nombre-usuario" placeholder="   Ej: Daniel Alejandro" required>
-                    </div>
-                </div>
-                <div class="grupo">
-                    <div>
-                        <label for="apellido">Apellido: </label>
-                    </div>
-                    <div>
-                        <input type="text" id="apellido-usuario" placeholder="   Ej: Canullo" required>
-                    </div>
-                </div>
-                <div class="grupo">
-                    <div>
-                        <label for="email">Email: </label>
-                    </div>
-                    <div>
-                        <input type="text" id="email" placeholder="   Ej: nombre@email.com" required>
-                    </div>
-                </div>
-                <div class="grupo">
-                    <div>
-                        <label for="celular">Celular: </label>
-                    </div>
-                    <div>
-                        <input type="text" id="celular" placeholder="   Ej: +56 9 1234 5678" required>
-                    </div>
-                </div>
-                <div class="grupo">
-                    <div>
-                        <label for="domicilio">Domicilio: </label>
-                    </div>
-                    <div>
-                        <input type="text" id="domicilio" placeholder="   Ej: Av siempre viva 1234" required>
-                    </div>
-                </div>
-        </div>
-
-        </form>
-        </div>
-
-
-        <div class="formularios">
-            <form action="">
-                <div class="titulo">
-                    <h2>Datos de la mascota</h2>
+                <div>
+                    <h2 class="titulo">Datos de la mascota</h2>
                 </div>
                 <div class="grupo">
 
@@ -144,11 +148,9 @@
                         <input type="text" id="alimentacion" placeholder="    Ej: Eukanuba" required>
                     </div>
                 </div>
-
             </form>
-
-
-        </div>
+        
+    </div>
 
         <div class="boton">
             <button>Guardar</button>

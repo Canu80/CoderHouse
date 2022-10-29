@@ -1,135 +1,150 @@
+// Home
+
+@include mobile {
 .contenedor {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 210px;
+  padding-top: 27vw;
 
+
+
+  .perdidas_encontradas {
+    .div_perdidas_encontradas {
+      .h2_perdidas_encontradas {
+        display: flex;
+        width: 90vw;
+        height: 5vw;
+        justify-content: left;
+        align-items: center;
+        padding: 0 1rem;
+        font-size: 0.9em;
+        color: white;
+        background-color: $color-dos;
+        align-items: center;
+        font-weight: bold;
+
+      }
+    }
+  }
 }
 
-.contenedor section div h2 {
-  display: flex;
-  width: 90vw;
-  height: 5vw;
-  justify-content: left;
-  align-items: center;
-  padding: 0 1rem;
-  font-size: 0.9em;
-  color: white;
-  background-color: $color-dos;
-  align-items: center;
-  font-weight: bold;
-  
-
-}
-
-.perdidas ul {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 25px;
-  align-items: center;
-}
-
-.perdidas img {
-  width: 90vw;
-}
-
-.encontradas ul {
+.perdidas_encontradas ul {
   display: flex;
   flex-direction: column;
   padding: 0px 25px;
   align-items: center;
 }
 
-.encontradas img {
+.perdidas_encontradas img {
   width: 90vw;
+}
+
+.perdidas_encontradas ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px;
+  align-items: center;
+}
+
+.perdidas_encontradas img {
+  width: 90vw;
+}
 }
 
 // Home
 
 @include tablet {
-.contenedor {
+  .contenedor {
 
-  display: flex;
-  flex-direction: column;
-  padding: 3vw 0px;
-  padding-top: 155px;
-
-  section div h2 {
     display: flex;
-    height: 3vw;
-    width: 95%;
-    align-items: center;
-    background-color: $color-dos;
-    justify-content: start;
-    font-weight: bold;
-    font-size: 1rem;
-    padding: 0px 5vw;
+    flex-direction: column;
+    padding: 3vw 0px;
+    padding-top: 155px;
+
+    .perdidas_encontradas {
+      .div_perdidas_encontradas {
+        .h2_perdidas_encontradas {
+          display: flex;
+          height: 3vw;
+          width: 95%;
+          align-items: center;
+          background-color: $color-dos;
+          justify-content: start;
+          font-weight: bold;
+          font-size: 1rem;
+          padding: 0px 5vw;
+        }
+      }
+    }
   }
 
-}
+  .perdidas_encontradas ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
 
-.perdidas ul {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-}
+  .perdidas_encontradas img {
+    width: 30vw;
+  }
 
-.perdidas img {
-  width: 30vw;
-}
+  .perdidas_encontradas ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
 
-.encontradas ul {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-}
-
-.encontradas img {
-  width: 30vw;
-}
+  .perdidas_encontradas img {
+    width: 30vw;
+  }
 }
 
 @include computer {
-.contenedor {
-  display: flex;
-  flex-direction: column;
-  padding-top: 160px;
-  font-size: 1rem;
-  
-
-  .perdidas .div_perdidas .h2_perdidas {
+  .contenedor {
     display: flex;
-    height: 3vw;
-    width: 95%;
-    background-color: $color-dos;
-    justify-content: start;
-    font-weight: bold;
-    padding: 0px 5vw;
+    flex-direction: column;
+    padding-top: 160px;
+    font-size: 1rem;
+
+
+    .perdidas_encontradas {
+      .div_perdidas_encontradas {
+        .h2_perdidas_encontradas {
+          display: flex;
+          height: 3vw;
+          width: 95%;
+          background-color: $color-dos;
+          justify-content: start;
+          font-weight: bold;
+          padding: 0px 5vw;
+        }
+      }
+    }
   }
-}
 
-.perdidas ul {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-}
+  .perdidas_encontradas ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
 
-.perdidas img {
-  width: 30vw;
-}
+  .perdidas_encontradas img {
+    width: 30vw;
+  }
 
-.encontradas ul {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-}
+  .perdidas_encontradas ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+  }
 
-.encontradas img {
-  width: 30vw;
-}
+  .perdidas_encontradas img {
+    width: 30vw;
+  }
 
 }

@@ -1,13 +1,49 @@
+@mixin mobile {
+    
+        h1{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            font-size: 1.1rem;
+            color: #c5f8ef;
+            font-style: normal;
+            padding: 20px 10vw;
+        }
+        
+        @content
+    }
+
+
+
 @mixin tablet {
-    @media (min-width: 768px){
+    @media (min-width: 850px){
+        h1{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            font-size: 1.1rem;
+            color: #c5f8ef;
+            font-style: normal;
+            padding: 20px 5vw;
+        }
         @content
     }
 }
 
 @mixin computer{
     @media (min-width: 1200px){
+        h1{
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            font-size: 1.2rem;
+            color: #c5f8ef;
+            font-style: normal;
+            padding: 20px 5vw;
+        }
         @content
     }
 }
+
 
 
